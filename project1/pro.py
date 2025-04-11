@@ -1,11 +1,10 @@
 
 import streamlit as st
-import joblib
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.metrics import confusion_matrix, classification_report
-from sklearn.datasets import load_iris
+import pandas as pd
+import joblib
+
+
 
 # Load the trained model and scaler
 model = joblib.load("house_model.pkl")

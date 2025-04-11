@@ -8,8 +8,8 @@ from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.datasets import load_iris
 
 # Load the trained model and scaler
-model = joblib.load("path/to/house_model.pkl")
-scaler = joblib.load("path/to/scaler.pkl")
+model = joblib.load("house_model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 # Streamlit app title
 st.title("House Value Prediction App")

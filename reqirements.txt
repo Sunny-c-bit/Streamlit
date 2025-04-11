@@ -2,10 +2,5 @@ joblib
 streamlit
 pandas
 numpy
-
 scikit-learn
 matplotlib
-<<<<<<< HEAD
-=======
-seaborn
->>>>>>> 49af9d58b64846f140bdf64ec968948c72325e13
